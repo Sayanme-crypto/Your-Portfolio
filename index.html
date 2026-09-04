@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAYAN PARAl — Software Engineer & Web Devoloper</title>
+<meta name="description" content="Portfolio of Your Name, software engineer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Work+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="net" aria-hidden="true"></canvas>
+<div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="mark">SP<span class="mark-dot">·</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#work" data-hover>Work</a>
+      <a href="#about" data-hover>About</a>
+      <a href="#stats" data-hover>Stats</a>
+      <a href="#contact" data-hover>Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-content">
+
+      <div class="hero-left">
+        <div class="profile-photo">
+          <img src="images/profile.png" alt="Sayan Paral">
+        </div>
+        <p class="hero-tag reveal-up"><span class="typed" id="typed"></span><span class="caret">_</span></p>
+      </div>
+
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="line reveal-up" style="--d:0">Sayan Paral builds</span>
+          <span class="line reveal-up" style="--d:1">responsive website</span>
+          <span class="line reveal-up" style="--d:2">that make  <em>An Impact</em>.</span>
+        </h1>
+        <p class="hero-sub reveal-up" style="--d:3">
+          Web Developer and Software Engineer skilled in Python, Java, JavaScript, HTML, and CSS, with a basic understanding of Machine Learning and passionate about building responsive web applications and practical software solutions.
+        </p>
+        <div class="hero-actions reveal-up" style="--d:4">
+          <a href="#work" class="btn btn-primary" data-magnetic>See the work</a>
+          <a href="mailto:you@example.com" class="btn btn-ghost" data-magnetic>paral7498@gmail.com</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="wrap">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects, picked for<br>what they taught me.</h2>
+      </div>
+
+      <div class="project-list">
+
+        <article class="project reveal-up" data-tilt>
+          <div class="project-media" data-pattern="1">
+            <svg viewBox="0 0 400 300" class="pattern-svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#FFB020"/>
+                  <stop offset="100%" stop-color="#7C6FF0"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="300" fill="#181A20"/>
+              <circle cx="90" cy="90" r="70" fill="url(#g1)" opacity="0.85" class="p-shape p-shape-a"/>
+              <rect x="200" y="60" width="150" height="150" rx="10" fill="none" stroke="#FFB020" stroke-width="2" class="p-shape p-shape-b"/>
+              <line x1="0" y1="220" x2="400" y2="180" stroke="#3E3A4A" stroke-width="1" class="p-shape p-shape-c"/>
+              <line x1="0" y1="240" x2="400" y2="260" stroke="#3E3A4A" stroke-width="1" class="p-shape p-shape-c"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-tag">Distributed systems</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>Mutual Fund</h3>
+            <p><b>Mutual Fund – Zerodha Clone:</b> Developed a responsive mutual fund investment platform inspired by Zerodha’s interface, featuring fund exploration, portfolio tracking, investment details, and a clean dashboard. Built using HTML, CSS, and JavaScript with a focus on responsive design and user-friendly navigation.
+</p>
+            <ul class="project-stack">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>MERN Stack</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" data-hover>Case study →</a>
+              <a href="#" data-hover>Source →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal-up" data-tilt>
+          <div class="project-media" data-pattern="2">
+            <svg viewBox="0 0 400 300" class="pattern-svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#3E7CFF"/>
+                  <stop offset="100%" stop-color="#FF6B6B"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="300" fill="#181A20"/>
+              <polygon points="200,40 350,260 50,260" fill="none" stroke="url(#g2)" stroke-width="2.5" class="p-shape p-shape-a"/>
+              <circle cx="200" cy="180" r="8" fill="#3E7CFF" class="p-shape p-shape-b"/>
+              <circle cx="140" cy="230" r="8" fill="#FF6B6B" class="p-shape p-shape-c"/>
+              <circle cx="260" cy="230" r="8" fill="#FFB020" class="p-shape p-shape-d"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-tag">Developer tools</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3>Campus Canteen Pre-Order System</h3>
+            <p>Developed a Java-based Campus Canteen Pre-Order System that allows students to browse the canteen menu, place food orders in advance, and reduce waiting time during busy hours. The system provides an easy-to-use interface for managing menu items, orders, and customer information. It uses Java Servlets and JSP for the web application, JDBC for database connectivity, and SQL/MySQL for storing and managing data.</p>
+            <ul class="project-stack">
+              <li>Java</li><li>JSP</li><li>Servlets</li><li>JDBC</li><li>HTML, CSS, JavaScript</li><li>MySQL</li><li>Apache Tomcat</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" data-hover>Case study →</a>
+              <a href="#" data-hover>Source →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal-up" data-tilt>
+          <div class="project-media" data-pattern="3">
+            <svg viewBox="0 0 400 300" class="pattern-svg" aria-hidden="true">
+              <rect width="400" height="300" fill="#181A20"/>
+              <g class="p-shape p-shape-a">
+                <rect x="40" y="220" width="30" height="50" fill="#7C6FF0"/>
+                <rect x="90" y="180" width="30" height="90" fill="#FFB020"/>
+                <rect x="140" y="140" width="30" height="130" fill="#3E7CFF"/>
+                <rect x="190" y="100" width="30" height="170" fill="#FF6B6B"/>
+                <rect x="240" y="160" width="30" height="110" fill="#FFB020"/>
+                <rect x="290" y="200" width="30" height="70" fill="#7C6FF0"/>
+              </g>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-tag">Data infrastructure</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>YouTube Clone</h3>
+            <p>Developed a YouTube Clone using React.js, replicating the core features of a modern video-streaming platform. The application allows users to browse videos, search for content, explore different categories, and view video details through a responsive and interactive interface. Built reusable React components and managed application state to create a smooth user experience.</p>
+            <ul class="project-stack">
+              <li>React.js</li><li>JavaScript</li><li>HTML5</li><li>HTML5</li><li>REST API</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" data-hover>Case study →</a>
+              <a href="#" data-hover>Source →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal-up" data-tilt>
+          <div class="project-media" data-pattern="4">
+            <svg viewBox="0 0 400 300" class="pattern-svg" aria-hidden="true">
+              <rect width="400" height="300" fill="#181A20"/>
+              <path d="M20,150 C100,60 140,240 200,150 S320,60 380,150" fill="none" stroke="#FF6B6B" stroke-width="2.5" class="p-shape p-shape-a"/>
+              <path d="M20,170 C100,240 140,80 200,170 S320,240 380,170" fill="none" stroke="#3E7CFF" stroke-width="2.5" class="p-shape p-shape-b"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-tag">Open source</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>Personal Portfolio Website</h3>
+            <p>Developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, education, and professional profile. Designed a clean and modern user interface with responsive layouts and interactive elements to provide a smooth browsing experience across different devices.</p>
+            <ul class="project-stack">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript
+</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" data-hover>Case study →</a>
+              <a href="#" data-hover>Source →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section-about">
+    <div class="wrap about-grid">
+      <div class="about-copy reveal-up">
+        <p class="eyebrow">About</p>
+        <h2>Building with purpose.<br>Learning every day.</h2>
+        <p>
+          I am a passionate student and aspiring software developer who enjoys
+          creating practical and user-friendly applications. My interests include
+          web development, software engineering, and machine learning.
+        </p>
+        <p>
+          I work with technologies such as HTML, CSS, JavaScript, Java, Python,
+          and the MERN stack. Through projects like my Campus Canteen Pre-Order
+          System, YouTube Clone, and Mutual Fund application, I continue to
+          strengthen my development and problem-solving skills.
+        </p>
+      <div class="about-facts reveal-up">
+
+    <div class="fact">
+        <span class="fact-label">Currently</span>
+        <span class="fact-value">Student</span>
+    </div>
+
+    <div class="fact">
+        <span class="fact-label">Role</span>
+        <span class="fact-value">Aspiring Software Developer</span>
+    </div>
+
+    <div class="fact">
+        <span class="fact-label">Based in</span>
+        <span class="fact-value">India</span>
+    </div>
+
+    <div class="fact">
+        <span class="fact-label">Focus</span>
+        <span class="fact-value">Web Development & Software Engineering</span>
+    </div>
+
+    <div class="fact">
+        <span class="fact-label">Learning</span>
+        <span class="fact-value">Java, Python & Machine Learning</span>
+    </div>
+
+</div>
+  </section>
+
+  <section id="stats" class="section section-stats">
+    <div class="wrap stats-grid">
+
+        <div class="stat reveal-up">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">projects completed</span>
+        </div>
+
+        <div class="stat reveal-up">
+            <span class="stat-num" data-count="5">0</span>
+            <span class="stat-label">technologies explored</span>
+        </div>
+
+        <div class="stat reveal-up">
+            <span class="stat-num" data-count="1">0</span>
+            <span class="stat-label">portfolio website</span>
+        </div>
+
+        <div class="stat reveal-up">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">development areas</span>
+        </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section section-contact">
+    <div class="wrap">
+      <p class="eyebrow reveal-up">Let's talk</p>
+      <h2 class="reveal-up">Open to new roles<br>and interesting problems.</h2>
+      <a href="mailto:you@example.com" class="contact-email reveal-up" data-magnetic>paral7498@gmail.com</a>
+      <div class="contact-links reveal-up">
+        <a href="https://github.com/Sayanme-crypto" data-hover>GitHub</a>
+        <a href="https://www.linkedin.com/in/sayan-paral-2854a3326/" data-hover>LinkedIn</a>
+        <a href="Resume_Sayan.pdf" target="_blank" rel="noopener noreferrer">View Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Sayan Paral. All rights reserved.</span>
+    <span>Designed & built with passion.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
